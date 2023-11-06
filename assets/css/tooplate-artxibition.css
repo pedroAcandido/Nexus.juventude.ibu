@@ -669,7 +669,7 @@ banner
 */
 
 .main-banner {
-  background-image: url(../images/imagens3.jpg);
+  background-image: url(../images/Groovy.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1769,6 +1769,17 @@ responsive
     margin-bottom: 15px;
   }
 
+}
+
+@media (max-width: 540px){
+  .main-banner {
+    background-image: url(../images/banercell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 270px 0px 210px 0px;
+    position: relative;
+  }
 }
 
 @media (max-width: 450px) {
