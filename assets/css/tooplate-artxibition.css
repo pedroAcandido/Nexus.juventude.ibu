@@ -1788,6 +1788,10 @@ responsive
 
 @media (max-width: 450px) {
 
+  .main-banner .counter-content h3 {
+    color: floralwhite;
+  }
+
   .rent-venue-tabs #tabs ul li {
     text-align: center;
     margin-right: 0px;
